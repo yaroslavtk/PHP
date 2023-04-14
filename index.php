@@ -30,7 +30,8 @@ if (!isset($_SESSION['access']))
 
 
     <?php
-    echo "You are an admin";
+    // echo "You are an admin";
+    require_once 'team.php';
         ?>
         
 </body>
